@@ -50,13 +50,21 @@ body {
 @media screen and (min-width: 375px) and (max-width: 667px) {
     .relogio {
         display: flex;
-        height: 150px;
-        width: 350px;
+        height: 170px;
+        width: 360px;
     }
     .relogio span {
         font-size: 80px;
     }
     .relogio span.tempo {
-        font-size: 15px;
+        font-size: 14px;
+    }
+    .relogio div {
+        height: 150px;
+        width: 110px;
+        display: flex;
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, .7);
+        border-radius: 7px;
+        letter-spacing: 4px;
     }
 }
